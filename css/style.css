@@ -1,0 +1,72 @@
+body {
+  text-align: center;
+}
+.content {
+  max-width: 960px;
+  display: inline-block;
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0px;
+}
+
+.my_profile {
+  width: fit-content;
+  padding: 2px 10px;
+  border: 1px solid black;
+  font-size: 34px;
+  font-weight: bold;
+}
+
+.links {
+
+}
+
+.links > a {
+  font-weight: bold;
+  font-size: 34px;
+  padding: 0px 10px;
+  text-decoration: none;
+  color: black;
+}
+
+.main_image > img {
+  width: 960px;
+  height: 400px;
+}
+
+#about img {
+  width: 141px;
+  height: 142px;
+  border-radius: 50%;
+  border: 7px double gray;
+}
+
+#about .about_content {
+  display: inline-flex;
+}
+
+#about .profile {
+  padding-left: 20px;
+  text-align: left;
+}
+
+#about .profile_name {
+  font-weight: bold;
+}
+
+#works .works_items {
+  display: inline-flex;
+}
+
+#works .works_items .works_item {
+  width: 179px;
+  padding: 0px 10px;
+  font-size: 18px;
+}
+
+#works .works_item img {
+  width: 179px;
+  height: 134px;
+}
