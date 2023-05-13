@@ -70,3 +70,18 @@ body {
   width: 179px;
   height: 134px;
 }
+
+/* 480px以下に適用されるCSS（スマホ用） */
+@media screen and (max-width: 480px) {
+  #works .works_items {
+    flex-direction: column;
+  }
+  #works .works_items .works_item {
+    width: 647px;
+  }
+
+  #works .works_item img {
+    width: 647px;
+    height: 492px;
+  }
+}
